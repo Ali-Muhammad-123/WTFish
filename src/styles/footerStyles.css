@@ -1,0 +1,10 @@
+.footer-wrapper{
+    position: relative;
+    top: 0;
+    padding: 60px 28px ;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+

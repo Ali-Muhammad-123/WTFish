@@ -1,0 +1,18 @@
+.header-wrapper{
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 28px ;
+    align-items: center;
+    
+}
+
+.download-button{
+    padding: 12px 30px ;
+    background: linear-gradient(40.53deg, #41BAE0 0%, #B3E3F3 91.35%);
+border-radius: 12px;
+font-weight: 400;
+font-size: 16px;
+border:none;
+}
