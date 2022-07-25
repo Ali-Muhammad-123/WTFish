@@ -68,7 +68,9 @@ function Footer(props) {
 					<img src={soc1} />
 				</a>
 			</div>
-			<div style={{ display: "flex", padding: "38px 0px" }}>
+			<div
+				style={{ display: "flex", padding: "38px 0px", alignItems: "center" }}
+			>
 				<img style={{ width: "100%", maxWidth: "100px" }} src={logo} />
 				<a
 					href="#"
