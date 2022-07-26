@@ -1,11 +1,11 @@
 .header-wrapper{
     position: relative;
-    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 28px 28px ;
+    padding: 28px 0px ;
     align-items: center;
-    
+    overflow: visible;
 }
 
 .download-button{
@@ -15,4 +15,37 @@ border-radius: 12px;
 font-weight: 400;
 font-size: 16px;
 border:none;
+cursor: pointer;
+}
+
+.hamburger-button{
+    background: none;
+    border:none;
+    display: none;
+    z-index: 10001;
+}
+
+.mobile-menu{
+    position: fixed;
+    display: none;
+    background-color: #fff;
+    top: 0;
+    z-index: 1000;
+    background: linear-gradient(40.53deg, #41BAE0 0%, #B3E3F3 91.35%);
+    transition: left 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 1014px) {
+  .nav-links{
+    display: none;
+  }
+  .download-button{
+    display: none;
+  }
+.hamburger-button{
+display: block;
+}
+.mobile-menu{
+display: block;
+}
 }

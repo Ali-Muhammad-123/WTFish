@@ -1,10 +1,38 @@
 .footer-wrapper{
     position: relative;
     top: 0;
-    padding: 60px 28px ;
+    padding: 60px 0px ;
+
     align-items: center;
     width: 100%;
     max-width: 1200px;
     margin: 0px auto;
 }
 
+.footer-wrapper-mobile{
+    display: none;
+    position: relative;
+    top: 0;
+    padding: 60px 0px ;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.download-text{
+
+font-size: 56px;}
+
+@media only screen and (max-width: 1014px) {
+    .footer-wrapper{
+        display: none;
+    }
+.footer-wrapper-mobile{
+    display:block;
+}
+    .download-text{
+        
+font-size: 25px;
+    }
+}
