@@ -85,89 +85,88 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 function App() {
   return (
     <div className="App">
-      <section className="first-section">
-        <div className="first-section-background" />
-        <header className="App-header">
-          <Navbar />
-
-          <div className="first-banner">
-            <h1>
-              Train yourself to discover all the species of came across during
-              your dives!
-            </h1>
-            <img
-              src={appStore}
-              style={{ width: "fit-content", paddingTop: "25px" }}
-            />
-            <img
-              src={anchor}
-              style={{
-                width: "fit-content",
-                paddingTop: "73px",
-                paddingBottom: "40px",
-              }}
-            />
-          </div>
-        </header>
-      </section>
       <div id="home" className="element">
-        <section className="second-section">
-          <img
-            src={Vector1}
-            style={{
-              width: "calc(100% - 45px)",
-              paddingLeft: "45px",
-              position: "absolute",
-              bottom: "0",
-              zIndex: "0",
-              left: "50%",
-              transform: "translateX(-50%)",
-            }}
-          />
-          <div className="second-section-inside">
-            <h1
-              style={{
-                fontWeight: "500",
-                fontSize: "48px",
-                textAlign: "center",
-                paddingTop: "80px",
-                margin: "0",
-                color: "#111111",
-              }}
-            >
-              About Bioquizz
-            </h1>
-            <div
-              style={{
-                width: "100%",
-                maxWidth: "900px",
-                margin: "0px auto",
-                paddingBottom: "80px",
-              }}
-            >
-              <p
+        <section className="first-section">
+          <div className="first-section-background" />
+          <header className="App-header">
+            <Navbar />
+
+            <div className="first-banner">
+              <h1>
+                Train yourself to discover all the species of came across during
+                your dives!
+              </h1>
+              <img
+                src={appStore}
+                style={{ width: "fit-content", paddingTop: "25px" }}
+              />
+              <img
+                src={anchor}
                 style={{
-                  fontWeight: "400",
-                  fontSize: "18px",
-                  paddingTop: "30px",
-                  textAlign: "center",
-                  lineHeight: "27px",
-                  letterSpacing: "-0.01em",
-                  color: "#353535",
+                  width: "fit-content",
+                  paddingTop: "73px",
+                  paddingBottom: "40px",
                 }}
-              >
-                Bioquizz is an application that allows you to answer quizzes on
-                the theme of marine animals. The mobile app is a great way to
-                learn more about marine animals, and is used by many heads of
-                state and senior government officials.
-                <br />
-                It's free and it's the perfect app to have fun with your
-                friends.
-              </p>
+              />
             </div>
-          </div>
+          </header>
         </section>
       </div>
+      <section className="second-section">
+        <img
+          src={Vector1}
+          style={{
+            width: "calc(100% - 45px)",
+            paddingLeft: "45px",
+            position: "absolute",
+            bottom: "0",
+            zIndex: "0",
+            left: "50%",
+            transform: "translateX(-50%)",
+          }}
+        />
+        <div className="second-section-inside">
+          <h1
+            style={{
+              fontWeight: "500",
+              fontSize: "48px",
+              textAlign: "center",
+              paddingTop: "80px",
+              margin: "0",
+              color: "#111111",
+            }}
+          >
+            About Bioquizz
+          </h1>
+          <div
+            style={{
+              width: "100%",
+              maxWidth: "900px",
+              margin: "0px auto",
+              paddingBottom: "80px",
+            }}
+          >
+            <p
+              style={{
+                fontWeight: "400",
+                fontSize: "18px",
+                paddingTop: "30px",
+                textAlign: "center",
+                lineHeight: "27px",
+                letterSpacing: "-0.01em",
+                color: "#353535",
+              }}
+            >
+              Bioquizz is an application that allows you to answer quizzes on
+              the theme of marine animals. The mobile app is a great way to
+              learn more about marine animals, and is used by many heads of
+              state and senior government officials.
+              <br />
+              It's free and it's the perfect app to have fun with your friends.
+            </p>
+          </div>
+        </div>
+      </section>
       <div id="features" className="element">
         <section className="third-section">
           <img
@@ -371,33 +370,35 @@ function App() {
           </div>
         </section>
       </div>
-      <section className="fifth-section">
-        <div className="fifth-section-inner">
-          <div className="fifth-section-inner-padding">
-            <h3
-              className="download-text"
-              style={{
-                fontWeight: "500",
-                color: "#111111",
-                margin: "0",
-              }}
-            >
-              Download Bioquizz
-            </h3>
-            <img
-              src={appStore}
-              style={{
-                width: "fit-content",
-                paddingTop: "60px",
-                cursor: "pointer",
-              }}
-            />
+      <div id="download" className="element">
+        <section className="fifth-section">
+          <div className="fifth-section-inner">
+            <div className="fifth-section-inner-padding">
+              <h3
+                className="download-text"
+                style={{
+                  fontWeight: "500",
+                  color: "#111111",
+                  margin: "0",
+                }}
+              >
+                Download Bioquizz
+              </h3>
+              <img
+                src={appStore}
+                style={{
+                  width: "fit-content",
+                  paddingTop: "60px",
+                  cursor: "pointer",
+                }}
+              />
 
-            <img className="phone4" src={phone4} />
-            <img className="phone5" src={phone5} />
+              <img className="phone4" src={phone4} />
+              <img className="phone5" src={phone5} />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <footer className="footer-outer-wrapper">
         <Footer />
       </footer>

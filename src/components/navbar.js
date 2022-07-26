@@ -184,7 +184,16 @@ function Navbar(props) {
         </a>
       </div>
       <div>
-        <button className="download-button">Download app</button>
+        <Link
+          activeClass="active"
+          className="test6"
+          to="download"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          <button className="download-button">Download app</button>
+        </Link>
       </div>
     </div>
   );
