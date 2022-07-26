@@ -90,16 +90,28 @@ function App() {
           <div className="first-section-background" />
           <header className="App-header">
             <Navbar />
-
             <div className="first-banner">
               <h1>
                 Train yourself to discover all the species of came across during
                 your dives!
               </h1>
-              <img
-                src={appStore}
-                style={{ width: "fit-content", paddingTop: "25px" }}
-              />
+              <Link
+                activeClass="active"
+                className="test6"
+                to="download"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <img
+                  src={appStore}
+                  style={{
+                    cursor: "pointer",
+                    width: "fit-content",
+                    paddingTop: "25px",
+                  }}
+                />
+              </Link>
               <img
                 src={anchor}
                 style={{
@@ -114,6 +126,7 @@ function App() {
       </div>
       <section className="second-section">
         <img
+          className="cloud1"
           src={Vector1}
           style={{
             width: "calc(100% - 45px)",
@@ -170,6 +183,7 @@ function App() {
       <div id="features" className="element">
         <section className="third-section">
           <img
+            className="cloud2"
             src={Vector2}
             style={{
               paddingLeft: "45px",
