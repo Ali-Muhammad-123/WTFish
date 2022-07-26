@@ -38,7 +38,7 @@ function Navbar(props) {
             display: "flex",
             flexDirection: "column",
             padding: "50px 30px",
-            height: "calc(100% - 96px)",
+            height: "calc(100% - 99.5px)",
             overscrollBehaviorY: "contain",
           }}
         >
