@@ -33,6 +33,8 @@ cursor: pointer;
     z-index: 1000;
     background: linear-gradient(40.53deg, #41BAE0 0%, #B3E3F3 91.35%);
     transition: left 0.5s ease-in-out;
+    overflow: auto;
+    overscroll-behavior: contain;
 }
 
 @media only screen and (max-width: 1014px) {

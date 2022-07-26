@@ -28,7 +28,6 @@ function Navbar(props) {
       <div
         className="mobile-menu"
         style={{
-          overflow: "hidden",
           height: windowSize.innerHeight,
           width: "100vw",
           left: mobileOpen ? "0px" : "-100vw",
@@ -39,7 +38,7 @@ function Navbar(props) {
             display: "flex",
             flexDirection: "column",
             padding: "50px 30px",
-            height: "calc(100% - 60px)",
+            height: "calc(100% - 96px)",
             overscrollBehaviorY: "contain",
           }}
         >
